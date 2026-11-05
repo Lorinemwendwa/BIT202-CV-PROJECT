@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacts Page</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        .contact-form {
+            width: 350px;
+        }
+
+        input, textarea {
+         width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid brown;
+            border-radius: 3px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 8px 18px;
+            border: none;
+            cursor: pointer;
+        }
+         nav a {
+            margin-right: 20px;
+            color: darkblue;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="experience.html">Personal experience</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contacts.html">Contacts</a>
+</nav>
+
+<h1>CONTACTS</h1>
+<p><b>Phone Number:</b> 0791677224</p>
+<p><b>Email Address:</b> mwendwalorine@gmail.com</p>
+<p><b>Location:</b> Kenya</p>
+
+<a href="mailto:yourname@gmail.com">Email me</a>
+
+<hr>
+
+<h2>Send Me a Message</h2>
+
+<form action="mailto:yourname@gmail.com"
+      method="post" enctype="text/plain"
+ class="contact-form">
+
+    <label>Enter your Name:</label>
+    <input type="text" name="Kiambati Lorine Mwendwa" required>
+
+    <label>E-mail address:</label>
+    <input type="email" name="mwendwalorine@gmail.com" required>
+
+    <label>Message Subject:</label>
+    <input type="text" name="BIT 202">
+
+    <label>Enter your Message:</label>
+     <textarea name="Message" rows="8" required></textarea>
+
+    <input type="checkbox" name="Copy" value="Yes"
+           style="width:auto;">
+    E-mail a copy of this message to your own address.
+
+    <br><br>
+
+    <button type="submit">Send</button>
+</form>
+
+<hr>
+
+<footer>
+    <p style="color:green;">
+&copy; 2026 My Website. All Rights Reserved.
+    </p>
+</footer>

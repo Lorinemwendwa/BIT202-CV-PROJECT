@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
+    color: #222;
+}
+
+header {
+    background-color: #164a63;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+ color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+main {
+    width: 80%;
+    margin: 25px auto;
+    background-color: white;
+    padding: 25px;
+    line-height: 1.7;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #555;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #164a63;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid green;
+}
+
+th {
+    background-color: lightblue;
+    border: 1px solid green;
+    padding: 12px;
+    text-align: left;
+}
+td {
+    border: 1px solid green;
+    padding: 12px;
+}
+
+.hobby {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #164a63;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.email-button:hover {
+    background-color: #0d3447;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    color: black;
+}
+
+main {
+    background-color: white;
+    padding: 25px;
+}
+/* Hobbies page background */
+.hobbies-page {
+    background-color: lightblue;
+}
+
+/* Navigation menu */
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.hobbies-page {
+    background-color: lightblue;
+}
